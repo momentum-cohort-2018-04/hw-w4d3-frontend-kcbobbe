@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Notes</title>
+  <link rel="stylesheet" href="https://cdn.shoelace.style/1.0.0-beta24/shoelace.css">
+  <link rel ="stylesheet" href = "styles.scss">
+  <script src = "script.js" defer></script>
+</head>
+<body>
+  <div class = "container"></div>
+  <h1>Notes</h1>
+  <form id="add-note-form" class="hidden">
+      <div class="row">
+        <div class="col input-field">
+          <input type="text" placeholder="Title" name="title" id="title">
+        </div>
+        <div class="col input-field">
+          <input type="text" placeholder="Note" name="Note" id="note">
+        </div>
+      </div>
+      <div class="col">
+        <button type="submit">Add Note</button>
+      </div>
+      <div id = "posted-notes"></div>
+      </form>
+</body>
+</html>
